@@ -10,7 +10,7 @@ task get_basename {
   }
 
   runtime {
-    docker: "sanger-somatic-vc-workflow"
+    docker: "quay.io/pancancer/pcawg-sanger-cgp"
   }
 }
 
