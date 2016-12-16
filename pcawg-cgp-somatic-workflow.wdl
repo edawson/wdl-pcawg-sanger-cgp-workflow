@@ -26,7 +26,7 @@ task getSampleId {
   }
 
   runtime {
-    docker: "sanger-somatic-vc-workflow"
+    docker: "quay.io/pancancer/pcawg-sanger-cgp"
   }
 }
 
@@ -58,7 +58,7 @@ task compareGenotype {
   }
 
   runtime {
-    docker: "sanger-somatic-vc-workflow"
+    docker: "quay.io/pancancer/pcawg-sanger-cgp"
   }
 }
 
@@ -100,7 +100,7 @@ task analyzeContamination {
   }
 
   runtime {
-    docker: "sanger-somatic-vc-workflow"
+    docker: "quay.io/pancancer/pcawg-sanger-cgp"
   }
 }
 
@@ -119,7 +119,7 @@ task bam_stats {
   }
 
   runtime {
-    docker: "sanger-somatic-vc-workflow"
+    docker: "quay.io/pancancer/pcawg-sanger-cgp"
   }
 }
 
@@ -144,7 +144,7 @@ task bbAlleleCount {
   }
 
   runtime {
-    docker: "sanger-somatic-vc-workflow"
+    docker: "quay.io/pancancer/pcawg-sanger-cgp"
   }
 }
 
@@ -165,7 +165,7 @@ task qc_metrics {
   }
 
   runtime {
-    docker: "sanger-somatic-vc-workflow"
+    docker: "quay.io/pancancer/pcawg-sanger-cgp"
   }
 }
 
@@ -222,7 +222,7 @@ task ascat {
   }
 
   runtime {
-    docker: "sanger-somatic-vc-workflow"
+    docker: "quay.io/pancancer/pcawg-sanger-cgp"
   }
 }
 
@@ -288,7 +288,7 @@ task pindel {
   }
 
   runtime {
-    docker: "sanger-somatic-vc-workflow"
+    docker: "quay.io/pancancer/pcawg-sanger-cgp"
   }
 }
 
@@ -373,7 +373,7 @@ task brass {
   }
 
   runtime {
-    docker: "sanger-somatic-vc-workflow"
+    docker: "quay.io/pancancer/pcawg-sanger-cgp"
   }
 }
 
@@ -396,7 +396,7 @@ task caveCnPrep {
   }
 
   runtime {
-    docker: "sanger-somatic-vc-workflow"
+    docker: "quay.io/pancancer/pcawg-sanger-cgp"
   }
 }
 
@@ -460,7 +460,7 @@ task caveman {
   }
 
   runtime {
-    docker: "sanger-somatic-vc-workflow"
+    docker: "quay.io/pancancer/pcawg-sanger-cgp"
   }
 }
 
