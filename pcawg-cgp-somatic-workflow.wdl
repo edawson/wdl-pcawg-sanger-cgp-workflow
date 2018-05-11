@@ -10,7 +10,8 @@ task get_basename {
   }
 
   runtime {
-    docker: "quay.io/pancancer/pcawg-sanger-cgp"
+    docker: "erictdawson/pcawg-sanger-cgp-workflow"
+    disks : "local-disk 1000 HDD"
   }
 }
 
@@ -26,7 +27,8 @@ task getSampleId {
   }
 
   runtime {
-    docker: "quay.io/pancancer/pcawg-sanger-cgp"
+    docker: "erictdawson/pcawg-sanger-cgp-workflow"
+    disks : "local-disk 1000 HDD"
   }
 }
 
@@ -58,7 +60,8 @@ task compareGenotype {
   }
 
   runtime {
-    docker: "quay.io/pancancer/pcawg-sanger-cgp"
+    docker: "erictdawson/pcawg-sanger-cgp-workflow"
+    disks : "local-disk 1000 HDD"
   }
 }
 
@@ -100,7 +103,8 @@ task analyzeContamination {
   }
 
   runtime {
-    docker: "quay.io/pancancer/pcawg-sanger-cgp"
+    docker: "erictdawson/pcawg-sanger-cgp-workflow"
+    disks : "local-disk 1000 HDD"
   }
 }
 
@@ -119,7 +123,8 @@ task bam_stats {
   }
 
   runtime {
-    docker: "quay.io/pancancer/pcawg-sanger-cgp"
+    docker: "erictdawson/pcawg-sanger-cgp-workflow"
+    disks : "local-disk 1000 HDD"
   }
 }
 
@@ -144,7 +149,8 @@ task bbAlleleCount {
   }
 
   runtime {
-    docker: "quay.io/pancancer/pcawg-sanger-cgp"
+    docker: "erictdawson/pcawg-sanger-cgp-workflow"
+    disks : "local-disk 1000 HDD"
   }
 }
 
@@ -165,7 +171,8 @@ task qc_metrics {
   }
 
   runtime {
-    docker: "quay.io/pancancer/pcawg-sanger-cgp"
+    docker: "erictdawson/pcawg-sanger-cgp-workflow"
+    disks : "local-disk 1000 HDD"
   }
 }
 
@@ -222,7 +229,8 @@ task ascat {
   }
 
   runtime {
-    docker: "quay.io/pancancer/pcawg-sanger-cgp"
+    docker: "erictdawson/pcawg-sanger-cgp-workflow"
+    disks : "local-disk 1000 HDD"
   }
 }
 
@@ -288,7 +296,9 @@ task pindel {
   }
 
   runtime {
-    docker: "quay.io/pancancer/pcawg-sanger-cgp"
+    docker: "erictdawson/pcawg-sanger-cgp-workflow"
+    cpu : "20"
+    disks : "local-disk 1000 HDD"
   }
 }
 
@@ -373,7 +383,9 @@ task brass {
   }
 
   runtime {
-    docker: "quay.io/pancancer/pcawg-sanger-cgp"
+    docker: "erictdawson/pcawg-sanger-cgp-workflow"
+    cpu : "20"
+    disks : "local-disk 1000 HDD"
   }
 }
 
@@ -396,7 +408,8 @@ task caveCnPrep {
   }
 
   runtime {
-    docker: "quay.io/pancancer/pcawg-sanger-cgp"
+    docker: "erictdawson/pcawg-sanger-cgp-workflow"
+    disks : "local-disk 1000 HDD"
   }
 }
 
@@ -460,7 +473,8 @@ task caveman {
   }
 
   runtime {
-    docker: "quay.io/pancancer/pcawg-sanger-cgp"
+    docker: "erictdawson/pcawg-sanger-cgp-workflow"
+    disks : "local-disk 1000 HDD"
   }
 }
 

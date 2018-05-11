@@ -1,8 +1,4 @@
 {
-    "sanger_cgp_somatic_wf_controlBam": "/HCC1143_ds/HCC1143_BL.bam",
-    "sanger_cgp_somatic_wf_controlBamBai": "/HCC1143_ds/HCC1143_BL.bam.bai",
-    "sanger_cgp_somatic_wf_tumorBam": "/HCC1143_ds/HCC1143.bam",
-    "sanger_cgp_somatic_wf_tumorBamBai": "/HCC1143_ds/HCC1143.bam.bai",
     "sanger_cgp_somatic_wf_badAnchorLociFile": "/gs://fc-9c84e685-79f8-4d84-9e52-640943257a9b//references_files/brass/ucscHiDepth_0.01_mrg1000_no_exon_coreChrs.bed.gz",
     "sanger_cgp_somatic_wf_badAnchorLociFileTbi": "/gs://fc-9c84e685-79f8-4d84-9e52-640943257a9b//references_files/brass/ucscHiDepth_0.01_mrg1000_no_exon_coreChrs.bed.gz.tbi",
     "sanger_cgp_somatic_wf_bbRefLociFiles": [
